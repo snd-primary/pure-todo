@@ -10,9 +10,10 @@ export default function Home() {
 				display: "grid",
 				placeItems: "center",
 				placeContent: "center",
+				fontFamily: "gaistMono",
 			})}
 		>
-			yo!
+			Next.js next.js vercel
 		</div>
 	);
 }

@@ -17,7 +17,20 @@ export default defineConfig({
 
 	// Useful for theme customization
 	theme: {
-		extend: {},
+		extend: {
+			tokens: {
+				fonts: {
+					gaistMono: {
+						value:
+							"var(--font-geist-mono),ui-monospace,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,SFMono-Regular,Roboto Mono,Menlo,Monaco,Liberation Mono,DejaVu Sans Mono,Courier New,monospace",
+					},
+					gaistSans: {
+						value:
+							"var(--font-geist-sans),Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,arial",
+					},
+				},
+			},
+		},
 	},
 
 	// The output directory for your css system
